@@ -47,8 +47,10 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    url = "https://github.com/0x2E/fusion/releases/download/v0.9.8/fusion_0.9.8_linux_amd64.zip"
-    sha256 = "b357b28652adf77275d078f2b423b0dc52277bbc316e9f5591f6277da98aa489"
+    amd64.url = "https://github.com/0x2E/fusion/releases/download/v0.9.8/fusion_0.9.8_linux_amd64.zip"
+    amd64.sha256 = "b357b28652adf77275d078f2b423b0dc52277bbc316e9f5591f6277da98aa489"
+    arm64.url = "https://github.com/0x2E/fusion/releases/download/v0.9.8/fusion_0.9.8_linux_arm64.zip"
+    arm64.sha256 = "8712d30aa7849c83c5a5c0b881808d46f589390e37d7b4555f7bd28167d5314d"
 
     # autoupdate.strategy = "latest_github_tag"
 
